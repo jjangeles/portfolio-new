@@ -1,0 +1,296 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Share Tech Mono', monospace;
+	background-color: #0D0D0D;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1965' height='235.8' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23060606' stroke-width='1' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	color: white;
+	position: relative;
+	padding-top: 65px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#portfolio h1 {
+	font-family: 'Share Tech Mono', monospace;
+}
+
+#navbar .navbar-brand img {
+	width: 40%;
+}
+
+#navbar {
+	font-family: 'Roboto', sans-serif;
+}
+
+#portfolio .nav-link.active {
+	background-color: orangered;
+}
+
+#portfolio .text-gray {
+	color: #8A8A8A;
+}
+
+#portfolio .navbar {
+	background-color: #121212;
+}
+
+#about {
+	min-height: 90vh;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid lightgray;*/
+	/*background-color: black;*/
+}
+
+#about.gameOn {
+	background-color: black;
+	border: 1px solid white;
+	transition: 1.5s;
+}
+
+#about #my-pic {
+	position: absolute;
+	left: 50%;
+	top: 12%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+#about #dv {
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	top: 12%;
+	width: 160px;
+	transform: translate(-50%, -50%);
+	z-index: 500;
+	user-select: none;
+}
+
+#vader-name {
+	position: absolute;
+	right: 250px;
+}
+
+#about #message {
+	width: 150px;
+	position: absolute;
+	left: 55%;
+	top: 0;
+}
+
+#about-row {
+	background-color: #0d0d0d;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1965' height='235.8' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23060606' stroke-width='1' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+#projects-row {
+	background-color: #060606;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1965' height='235.8' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23101010' stroke-width='1' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	min-height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+#contact-row {
+	background-color: #0d0d0d;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1965' height='235.8' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23060606' stroke-width='1' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	min-height: 93vh;
+}
+
+#about .description {
+	position: absolute;
+	top: 28%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#about .explode {
+	height: 48px;
+	width: 48px;
+	background: url("../../portfolio/assets/images/explode.png");
+	position: absolute;
+	display: inline;
+	z-index: 100;
+}
+
+#about #game-nav {
+	padding: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 22px;
+}
+
+#about .scoreBox,
+#about .timer,
+#vader-name {
+	position: absolute;
+	user-select: none;
+}
+
+#about .timer {
+	width: 200px;
+	right: 20px;
+	top: 15px;
+}
+
+#about #health {
+	width: 100%;
+}
+
+#about #destroyBtn {
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#about #player {
+	width: 100px;
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	user-select: none;
+}
+
+#about .bullet {
+	position: absolute;
+	bottom: 20%;
+	width: 20px;
+	user-select: none;
+	z-index: 100;
+}
+
+#about .bullet1 {
+	transform: translate(-100%, -100%);
+}
+
+#about .bullet2 {
+	transform: translate(0, -100%);
+}
+
+#about .char {
+	position: relative;
+	z-index: 2000;
+	user-select: none;
+}
+
+#about .hidden {
+	opacity: 0;
+	position: relative;
+	z-index: 2000;
+	user-select: none;
+}
+
+.project {
+	position: relative;
+	height: 200px;
+}
+
+.project-description {
+	position: absolute;
+	background-color: #000088;
+	display: block;
+	width: 75%;
+	height: 60%;
+	top: 20%;
+	color: white;
+	padding: 10px;
+	padding-right: 15%;
+	padding-left: 8%;
+	font-size: 1.1vw;
+}
+
+.project-image  {
+	position: absolute;
+	right: 0;
+	top: 0;
+    width: 30%;
+    height: 100%;
+    transform: skew(20deg);
+    background: white;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.project-description-left {
+	position: absolute;
+	background-color: #880000;
+	display: block;
+	width: 75%;
+	height: 60%;
+	right: 0;
+	top: 20%;
+	color: white;
+	padding: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.1vw;
+}
+
+.project-description:before {
+	content: "";
+	position: absolute;
+	left: 0px;
+	bottom: 0;
+	width: 0;
+    height: 0;
+    border-left: 60px solid #060606;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+  }
+
+.project-description-left:after {
+	content: "";
+	position: absolute;
+	right: 0px;
+	bottom: 0;
+	width: 0;
+    height: 0;
+    border-right: 60px solid #060606;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+  }
+
+.project-image-left  {
+	position: absolute;
+	left: 0;
+	top: 0;
+    width: 30%;
+    height: 100%;
+    transform: skew(20deg);
+    background: white;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 100;
+    box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.project-image img {
+	height: 100%;
+	width: 100%;
+	transform: skew(-20deg);
+}
+
+.project-image-left img {
+	height: 100%;
+	width: 100%;
+	transform: skew(-20deg);
+}
+
+.project-image:hover,
+.project-image-left:hover {
+	transform: scale(1.1) skew(20deg);
+	transition: 1s;
+}
