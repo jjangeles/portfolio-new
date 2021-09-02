@@ -1,4 +1,4 @@
-<?php  
+<?php
 	function spanify($text) {
 		$array = str_split($text);
 		foreach ($array as $char) {
@@ -52,11 +52,11 @@
 				<img id="player" src="assets/images/x-wing.png" class="d-none">
 			</div>
 		</div>
-		<div id="projects-row" class="row">
+		<!-- <div id="projects-row" class="row">
 			<div id="projects" class="col-md-10 offset-md-1 mt-3 pb-5">
 				<h1 class="font-weight-bold text-light mt-5">Projects</h1>
 
-				<div class="project">	
+				<div class="project">
 					<div class="project-description">
 						<p class=""><span class="lead">TideHunter</span> - a website created for surfing enthusiasts in the Philippines. It is built with basic HTML and CSS.</p>
 						<p class="m-0 small">Link: <a class="text-light" href="https://jjangeles.github.io/capstone1/" target="_blank">https://jjangeles.github.io/capstone1/</a></p>
@@ -68,7 +68,7 @@
 					</div>
 				</div>
 
-				<div class="project">	
+				<div class="project">
 					<div id="tidehunter" class="project-image-left">
 						<a class="text-light" href="https://sneaker-seeker.000webhostapp.com/app/views/index.php" target="_blank">
 							<img src="assets/images/ss.png">
@@ -80,7 +80,7 @@
 					</div>
 				</div>
 
-				<div class="project">	
+				<div class="project">
 					<div class="project-description">
 						<p class=""><span class="lead">Coming Soon</span> - another awesome website yet to be hosted.</p>
 						<p class="m-0 small">Link: </p>
@@ -91,10 +91,12 @@
 				</div>
 
 			</div>
-		</div>
+		</div> -->
 		<div id="contact-row" class="row">
 			<div id="contact" class="col-md-10 offset-md-1 mt-3 pb-5">
-				<h1>Contact</h1>
+				<h1>Contact Information</h1>
+				<h3>Mobile Number: <b>+63-947-730-5745</b></h3>
+				<h3>E-mail: <b>johnjeromeangeles@gmail.com</b></h3>
 			</div>
 		</div>
 	</div>
