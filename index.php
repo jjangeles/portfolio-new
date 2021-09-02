@@ -94,11 +94,12 @@
 			</div>
 		</div> -->
 		<div id="contact-row" class="row text-center">
-			<div id="contact" class="col-md-10 offset-md-1 mt-3 pb-5 d-flex justify-content-center">
+			<div id="contact" class="col-md-10 offset-md-1 mt-3 pb-5 d-flex align-items-center justify-content-center">
 				<div>
-					<h1 class='mb-1'>Contact Information</h1>
+					<h1 class='mb-5'>Contact Information</h1>
 					<h3>Mobile Number: <b>+63-947-730-5745</b></h3>
 					<h3>E-mail: <b>johnjeromeangeles@gmail.com</b></h3>
+					<h3>LinkedIn: <b><a href="https://www.linkedin.com/in/john-jerome-angeles/">John Jerome Angeles</a></b></h3>
 				</div>
 			</div>
 		</div>
