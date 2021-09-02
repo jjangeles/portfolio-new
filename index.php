@@ -99,7 +99,7 @@
 					<h1 class='mb-5'>Contact Information</h1>
 					<h3>Mobile Number: <b>+63-947-730-5745</b></h3>
 					<h3>E-mail: <b>johnjeromeangeles@gmail.com</b></h3>
-					<h3>LinkedIn: <b><a href="https://www.linkedin.com/in/john-jerome-angeles/">John Jerome Angeles</a></b></h3>
+					<h3>LinkedIn: <b><a href="https://www.linkedin.com/in/john-jerome-angeles/" target="_blank">John Jerome Angeles</a></b></h3>
 				</div>
 			</div>
 		</div>
