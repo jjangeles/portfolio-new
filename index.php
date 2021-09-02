@@ -46,7 +46,7 @@
 				<img id="dv" src="assets/images/dv.png" class="animated slower d-none darth">
 				<div class="description">
 					<h2 class="text-center text-light"><?php spanify("Hello! My name is John Jerome Angeles."); ?></h2>
-					<p class="lead"><?php spanify("I am a full-stack web developer based in Manila, Philippines. I am very passionate about every project I create. I have a diverse set of skills including HTML, CSS, PHP, Javascript and Laravel. If this description doesn't look too impressive then go ahead and click the button below.") ?></p>
+					<p class="lead"><?php spanify("I am a full-stack web developer based in Manila, Philippines. I am very passionate about every project I create. I'm currently working as a backend developer for 'lookingfour.com', a 'recommerce' web platform for buying and selling new and used products. I specialize in Laravel framework with Elasticsearch as a search index. I also help out in the frontend development whenever they need an extra hand which gave me exposure to ReactJS. ") ?></p>
 				</div>
 				<button id="destroyBtn" type="button" class="btn btn-danger text-light font-weight-bold lead py-2 px-5">Play!</button>
 				<img id="player" src="assets/images/x-wing.png" class="d-none">
