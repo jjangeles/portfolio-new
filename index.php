@@ -52,6 +52,7 @@
 				<img id="player" src="assets/images/x-wing.png" class="d-none">
 			</div>
 		</div>
+		<!-- TODO: UPDATE OLD PROJECTS -->
 		<!-- <div id="projects-row" class="row">
 			<div id="projects" class="col-md-10 offset-md-1 mt-3 pb-5">
 				<h1 class="font-weight-bold text-light mt-5">Projects</h1>
@@ -92,11 +93,13 @@
 
 			</div>
 		</div> -->
-		<div id="contact-row" class="row">
-			<div id="contact" class="col-md-10 offset-md-1 mt-3 pb-5">
-				<h1>Contact Information</h1>
-				<h3>Mobile Number: <b>+63-947-730-5745</b></h3>
-				<h3>E-mail: <b>johnjeromeangeles@gmail.com</b></h3>
+		<div id="contact-row" class="row text-center">
+			<div id="contact" class="col-md-10 offset-md-1 mt-3 pb-5 d-flex align-items-center">
+				<div>
+					<h1 class='mb-1'>Contact Information</h1>
+					<h3>Mobile Number: <b>+63-947-730-5745</b></h3>
+					<h3>E-mail: <b>johnjeromeangeles@gmail.com</b></h3>
+				</div>
 			</div>
 		</div>
 	</div>
